@@ -10,5 +10,5 @@ constructor(x,y,size,color){
         pen.fillRect(this.x,this.y,this.size,this.size);
         }
 }
-let player1 = new Player(50,50,30,"rgb(255,0,0)")
+let player1 = new Player(50,5,30,"rgb(255,0,0)")
 player1.draw()
