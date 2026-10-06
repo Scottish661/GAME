@@ -1,3 +1,3 @@
 function Gravity(){
-this.y--;
+player1.y--;
 }
