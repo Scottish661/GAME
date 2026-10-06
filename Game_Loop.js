@@ -4,3 +4,4 @@ this.draw()
 Gravity()
 requestAnimationFrame(GameLoop)
 }
+GameLoop();
