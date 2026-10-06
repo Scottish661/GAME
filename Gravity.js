@@ -1,0 +1,3 @@
+function Gravity(){
+this.y--;
+}
