@@ -1,3 +1,3 @@
 function Gravity(){
-player1.y %= 21;
+player1.y++
 }
