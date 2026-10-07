@@ -1,9 +1,9 @@
-function Gravity(){
-    if(!player1.isGrounded){
+function Gravity(object){
+    if(!object.isGrounded){
 player1.y++
 }
-if(player1.y >= CS ){
-    player1.y = CS - player1.size 
-    player1.isGrounded = true;
+if(object.y >= CS ){
+    object.y = CS - object.size 
+    object.isGrounded = true;
     }
 }
