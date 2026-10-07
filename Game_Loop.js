@@ -1,7 +1,7 @@
 function GameLoop(){
 pen.clearRect(0,0,CS,CS)
 player1.draw()
-Gravity()
+Gravity(player1)
 requestAnimationFrame(GameLoop)
 }
 GameLoop();
