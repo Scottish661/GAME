@@ -4,7 +4,7 @@ constructor(x,y,size,color){
     this.y = y;
     this.size = size;
     this.color = color;
-    isGrounded = false;
+    this.isGrounded = false;
     }
     draw(){
         pen.fillStyle = this.color;
