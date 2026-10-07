@@ -6,6 +6,6 @@ constructor(x,y,size){
     this.isGrounded = false;
     }
     draw(){
-pen.drawImage(player.gift,this.x,this.y,this.size)
+pen.drawImage(player.gif,this.x,this.y,this.size,this.size)
         }
 }
