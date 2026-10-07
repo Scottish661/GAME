@@ -3,7 +3,7 @@ function Gravity(){
 player1.y++
 }
 if(player1.y >= CS ){
-    player1.y = CS -player.size 
+    player1.y = CS - player1.size 
     player1.isGrounded = true;
     }
 }
