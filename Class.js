@@ -8,6 +8,7 @@ constructor(x,y,size,ImageName){
     this.img.src = ImageName;
     }
     draw(){
-pen.drawImage(this.x,this.y,this.size,this.size,ImageName)
+pen.drawImage(this.img,this.x,this.y,this.size,this.size)
+    )
         }
 }
