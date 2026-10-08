@@ -9,6 +9,6 @@ constructor(x,y,size,ImageName){
     }
     draw(){
 pen.drawImage(this.img,this.x,this.y,this.size,this.size)
-    )
+    
         }
 }
