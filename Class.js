@@ -23,5 +23,5 @@ constructor(x,y,width,height,color){
     }
     draw(){
 pen.fillStyle = this.color;
-pen.fillRect(this.x,this.y,this.size,this.size)}
+pen.fillRect(this.x,this.y,this.width,this.height)}
 }}
