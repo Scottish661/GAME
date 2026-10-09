@@ -14,10 +14,11 @@ constructor(x,y,size,ImageName,health){
 pen.drawImage(this.img,this.x,this.y,this.size,this.size)
 }}
 class PlatForm{
-constructor(x,y,size,color){
+constructor(x,y,width,height,color){
     this.x = x;
     this.y = y;
-    this.size = size;
+    this.width = width;
+    this.height = height;
     this.color = color;
     }
     draw(){
