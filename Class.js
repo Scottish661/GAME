@@ -9,4 +9,4 @@ constructor(x,y,size,ImageName,health){
     this.health = health
     }
     draw(){
-pen.drawImage(this.img,this.x,this.y,this.size,this.size,this.health)}}
+pen.drawImage(this.img,this.x,this.y,this.size,this.size)}}
