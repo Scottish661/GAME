@@ -11,4 +11,16 @@ constructor(x,y,size,ImageName,health){
     this.immortal = false
     }
     draw(){
-pen.drawImage(this.img,this.x,this.y,this.size,this.size)}}
+pen.drawImage(this.img,this.x,this.y,this.size,this.size)
+}}
+class PlatForm{
+constructor(x,y,size,color){
+    this.x = x;
+    this.y = y;
+    this.size = size;
+    this.color = color;
+    }
+    draw(){
+pen.fillStyle = this.color;
+pen.fillRect(this.x,this.y,this.size,this.size)}
+}}
