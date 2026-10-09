@@ -5,5 +5,5 @@ function Mobile_control(object,index){
 object[direction[index]] += speed[index];
 }
 for (let i = 0; i < direction.length; i++){
-document.body.innerHTML += `<button onclick="Mobile_control(player1,${i})"> $ {Labels[i]}</button>`; 
+document.body.innerHTML += `<button onclick="Mobile_control(player1,${i})"> ${Lables[i]}</button>`; 
     }
