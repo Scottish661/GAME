@@ -7,8 +7,8 @@ constructor(x,y,size,ImageName,health){
     this.img = new Image();
     this.img.src = ImageName;
     this.health = health
-    this.Alive = false
-    this.immortal = true 
+    this.Alive = true
+    this.immortal = false
     }
     draw(){
 pen.drawImage(this.img,this.x,this.y,this.size,this.size)
