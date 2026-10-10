@@ -1,4 +1,4 @@
-document.addEventListener("touchmove", e =>{
-px = e.touches[0].clientX-rect.left-25;
-py = e.touches[0].clientY-rect.top-25;
-}
+document.addEventListener("touchmove", e => {
+    player1.x = e.touches[0].clientX - canvas.getBoundingClientRect().left - player1.size / 2;
+    player1.y = e.touches[0].clientY - canvas.getBoundingClientRect().top - player1.size / 2;
+});
