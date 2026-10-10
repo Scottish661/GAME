@@ -6,9 +6,10 @@ constructor(x,y,size,ImageName,health){
     this.isGrounded = false;
     this.img = new Image();
     this.img.src = ImageName;
-    this.health = health
-    this.Alive = true
-    this.immortal = false
+    this.health = health;
+    this.Alive = true;
+    this.immortal = false;
+    this.vy = 0;
     }
     draw(){
 pen.drawImage(this.img,this.x,this.y,this.size,this.size)
