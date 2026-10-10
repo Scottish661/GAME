@@ -8,3 +8,5 @@ if(canvas){
 let pen = canvas.getContext("2d");
 canvas.width = CS;
 canvas.height = CS;
+let px=295;
+let py = 215;
